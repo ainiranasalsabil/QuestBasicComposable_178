@@ -80,3 +80,15 @@ fun TataletakColumnRow(modifier: Modifier = Modifier) {
     }
 }
 
+// ------------------
+// Column dengan dua Row (baris)
+// ------------------
+@Composable
+fun TataletakColumRow(modifier: Modifier = Modifier) {
+    Column {
+        // Baris 1
+
+        }
+    }
+}
+
