@@ -126,7 +126,16 @@ fun TataletakRowColum2(modifier: Modifier = Modifier) {
 fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
     val gambar = painterResource(id = R.drawable.gambar)
 
+    Column {
+        // Bagian teks atas (2 baris)
+        Column {
 
+        }
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+
+    }
 }
 
 
