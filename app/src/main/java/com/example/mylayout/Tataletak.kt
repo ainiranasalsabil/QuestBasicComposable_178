@@ -33,3 +33,16 @@ fun TataletakColumn(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun TataletakRow(modifier: Modifier = Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "haloo1")
+        Text(text = "haloo2")
+        Text(text = "haloo3")
+        Text(text = "haloo4")
+    }
+}
+
