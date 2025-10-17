@@ -39,10 +39,10 @@ fun TataletakRow(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
-        Text(text = "haloo1")
-        Text(text = "haloo2")
-        Text(text = "haloo3")
-        Text(text = "haloo4")
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
     }
 }
 
